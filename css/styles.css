@@ -66,7 +66,7 @@ body {
         display: flex;
         align-items: center;
 
-        height: calc(100dvh - 8rem);
+        height: calc(110dvh - 8rem);
         width: 100%;
 
         background: url(../images/doces.png) center / cover no-repeat;
@@ -87,8 +87,6 @@ body {
             letter-spacing: -0.1rem;
             text-align: left;
             color: #fff;
-
-            padding-top: 2rem;
           }
 
           & .subtitle {
@@ -139,7 +137,7 @@ body {
           align-items: center;
 
           background-color: #00000067;
-          height: calc(100dvh - 8rem);
+          height: calc(110dvh - 8rem);
           width: 100%;
         }
       }
