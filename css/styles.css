@@ -67,11 +67,11 @@ body {
         & .slide-content {
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: end;
           align-items: start;
-          gap: 1.5rem;
+          gap: 1.8rem;
 
-          padding: 0 50% 0 6rem;
+          padding: 0 50% 8% 6rem;
 
           & .title {
             font-family: "Roboto Slab", serif;
@@ -98,9 +98,9 @@ body {
 
             & .slide-btn-wtzp,
             .slide-btn-ifood {
-              font-size: 1.2rem;
+              font-size: 1.3rem;
               font-weight: 600;
-              padding: 1.2rem 4rem;
+              padding: 1.4rem 4rem;
 
               border-radius: 5rem;
               text-decoration: none;
@@ -109,17 +109,25 @@ body {
               color: #fff;
             }
 
+            & .slide-btn-wtzp {
+              background-color: #ff8400d3;
+            }
+
+            & .slide-btn-ifood {
+              background-color: #ea1d2bd3;
+            }
+
             & .slide-btn-wtzp:hover,
             .slide-btn-ifood:hover {
               transform: scale(1.04);
               transition: all 0.2s;
             }
 
-            & .slide-btn-wtzp {
+            & .slide-btn-wtzp:hover {
               background-color: #ff8200;
             }
 
-            & .slide-btn-ifood {
+            & .slide-btn-ifood:hover {
               background-color: #ea1d2c;
             }
           }
@@ -127,7 +135,7 @@ body {
 
         & .mask {
           display: flex;
-          align-items: center;
+          align-items: end;
 
           background-color: #00000067;
           height: calc(110dvh - 8rem);
