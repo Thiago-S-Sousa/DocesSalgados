@@ -17,41 +17,34 @@ body {
 
 & .header {
   display: flex;
-  justify-content: end;
+  justify-content: start;
   align-items: center;
 
   height: 8rem;
 
   background-color: #382717;
 
-  & .logo {
+  & .logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: absolute;
     z-index: 100;
-    top: 1rem;
+    top: 0.5rem;
     left: 6rem;
 
     border-radius: 50%;
-    height: 18rem;
-    width: 18rem;
-  }
+    height: 20rem;
+    width: 20rem;
 
-  & .order-btn {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-right: 6rem;
-    padding: 1rem 6rem;
+    background-color: #382717;
 
-    border-radius: 5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-
-    color: #fff;
-    background-color: #ff8200;
-  }
-
-  & .order-btn:hover {
-    transform: scale(1.02);
-    transition: all 0.2s;
+    & .logo {
+      border-radius: 50%;
+      height: 16rem;
+      width: 16rem;
+    }
   }
 }
 
